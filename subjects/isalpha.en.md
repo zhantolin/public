@@ -29,6 +29,7 @@ func main() {
 	fmt.Println(piscine.IsAlpha("HelloHowareyou"))
 	fmt.Println(piscine.IsAlpha("What's this 4?"))
 	fmt.Println(piscine.IsAlpha("Whatsthis4"))
+	fmt.Println(piscine.IsAlpha(""))
 
 }
 ```
@@ -41,6 +42,7 @@ student@ubuntu:~/piscine-go/test$ ./test
 false
 true
 false
+true
 true
 student@ubuntu:~/piscine-go/test$
 ```
